@@ -1,0 +1,31 @@
+{
+  "name": "resty-mongo",
+  "version": "1.0.0",
+  "description": "REST API examples using MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harjeethans/resty-mongo.git"
+  },
+  "keywords": [
+    "REST",
+    "Mongo"
+  ],
+  "author": "Harjeet Hans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harjeethans/resty-mongo/issues"
+  },
+  "homepage": "https://github.com/harjeethans/resty-mongo#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.6.0",
+    "fastify-swagger": "^2.4.0",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.1",
+    "nodemon": "^1.19.1"
+  }
+}
