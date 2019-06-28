@@ -7,7 +7,7 @@ const Contact = require('../models/Contact');
 // Get all cars
 exports.getContacts = async (req, reply) => {
   try {
-    const contacts = await Contact.find({isActive: true});
+    const contacts = await Contact.find();
     return contacts;
   } catch (err) {
     throw boom.boomify(err);
